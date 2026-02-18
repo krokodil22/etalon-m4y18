@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Кофейня • Акция дня</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- FIXED -->
+  <header class="topbar">
+    <span class="brand">CoffeePoint</span>
+    <a class="btn" href="#details">Условия</a>
+  </header>
+  
+  <div class="sticker">
+  Вход свободный!
+  </div>
+
+  <main class="page">
+
+    <!-- STATIC -->
+    <h1 class="title">Акция дня: -20% на какао</h1>
+    <p class="text">Только сегодня с 15:00 до 18:00. Покажи экран на кассе.</p>
+
+    <!-- RELATIVE (сдвинутый блок) -->
+    <div class="notice">
+      🔥 Горячее предложение ограничено по времени!
+    </div>
+
+    <!-- RELATIVE + ABSOLUTE -->
+    <section class="card" id="details">
+      <span class="badge">-20%</span>
+      <h2>Условия акции</h2>
+      <p class="text">
+        Скидка действует на какао среднего размера.
+        Не суммируется с другими предложениями.
+      </p>
+    </section>
+    
+    <section class="timer">
+  <h2>До конца акции</h2>
+  <p class="timer__text">Скидка действует до 18:00.</p>
+  <span class="timer__tag">осталось ~40 мин</span>
+</section>
+
+    
+<div class="sticky">
+  <p class="sticky__text">Скажи на кассе промкод: <b>КАКАО20</b></p>
+</div>
+
+  </main>
+
+  <!-- FIXED -->
+  <a class="to-top" href="#">↑</a>
+
+</body>
